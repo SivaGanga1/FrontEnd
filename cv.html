@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .home{
+            background-image: url(cvp1.jpeg);
+            background-size: cover;
+            opacity: 80%;
+        }
+        .about{
+           
+            background-image: url(cvp2.jpg);
+            background-size: cover;
+
+        }
+        .Contact{
+
+            background-image: url(cvp2.jpg);
+            background-size: cover;
+
+        }
+        .Skills{
+           
+            background-image: url(cvp2.jpg);
+            background-size: cover;
+
+        }
+        .col{
+            background-color: black;
+        }
+        .fill img{
+            left: 35%;
+            top:8%;
+            position: relative;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        h3{
+            font-size: 18px;
+            text-transform:uppercase;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            top:10%;
+            left:32%;
+            color:white;
+            position:relative;
+        }
+        .fill{
+            background-color: black;
+            height:650px;
+
+        }
+        .menu li{
+            list-style-type: none;
+            text-decoration: none;
+            padding: 10px;  
+        }
+        .menu a{
+            color:white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            text-transform: capitalize;
+            top:80px;
+            left:34%;
+            position: relative;
+        }
+        .icons li{
+            padding-inline: 2px;
+            left:12%;
+            top:70px;
+            position: relative;
+        }
+        .icons a{
+            color:white;
+            left: 80%;
+            position:relative;
+
+        }
+        .footer p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            color:white;
+            left:34%;
+            top:90px;
+            position:relative;
+            text-transform: capitalize;
+
+        }
+        .change .h3{
+            font-size:32px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+            padding-top: 32%;
+            padding-left: 8%;
+            position: relative;
+        }
+        .change p{
+            color:black;
+            font-size:18px;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+            font-weight:bold;
+            padding-left: 12%;
+            position: relative;
+        }
+        .para{
+            text-align:justify;
+            font-size: 14px;
+            font-family: arial;
+        }
+        .para a{
+            text-decoration:none;
+        }
+        h4{
+            color:darkblue;
+            padding-top: 25px;
+            font-weight:bold;
+        }
+        h5{
+            color:darkblue;
+            font-weight: bold;
+            
+        }
+        .content li{
+            list-style-type: ">";
+            padding-left: 3px;
+            right:20px;
+            padding:5px;
+            position: relative;
+            font-size:10px;
+        }
+        .content1 li{
+            list-style-type: ">";
+            padding-left: 4px;
+            right:150px;
+            padding:5px;
+            text-align: justify;
+            position: relative;
+            font-size:10px;
+        }
+        .card-header h6{
+            font-size:14px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .card-header i{
+            padding-right:3px;
+        }
+        .card{
+            border:none;
+            background-color:white;
+
+        }
+        .h5{
+            text-transform: capitalize;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        td{
+            border:none;
+            font-size:18px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .table td{
+            left:4%;
+            position: relative;
+        }
+        button{
+            top:10px;
+            left:40%;
+            position: relative;
+        }
+        textarea{
+            width:100%;
+        }
+        td{
+            padding:6px;
+        }
+        .progress{
+            top:20px;
+            position: relative;
+        }
+        .progress-bar{
+          background-color:blue;
+          font-size:14px;
+        }
+        .menu a:active{
+            color: blue;
+        }
+        .para1{
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            top:18px;
+            position: relative;
+        }
+        .nav{
+            left:15%;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <section id="home">
+        <div class="container pt-3">
+            <div class="row">                                         
+                <div class="col-sm-12 col-md-4 col-lg-4" > 
+                    <div class="fill" >
+                    <img src="cvp2.jpeg" height="150px" width="150px" alt="">
+                    <h3>SivaGanga m</h3>
+                    <div class="icons">
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link" href=" https://www.instagram.com/invites/contact/?igsh=1881g07ivi96h&utm_content=o04o2cb"><i class="fa fa-instagram"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sivaganga-m-449ab733b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                           <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-home">home</i></a></li>
+                           <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-user">About</i></a></li>
+                           <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter">Contact</i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <p>&copy; copyrights@2024<br> designed by SivaGanga</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-sm-12 col-md-4 col-lg-8 home">
+                  <div class="change">
+                    <p class="h3">i'm SivaGanga</p>
+                    <p>i'm a cybersecurity analyst</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="fill">
+                       <img src="cvp2.jpeg" height="150px" width="150px" alt="">
+                       <h3>SivaGanga M</h3>
+                        <div class="icons">
+                          <ul class="nav">
+                              <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/sivaganga_m?igsh=YXpwbmFtNHE2NW0w"><i class="fa fa-instagram"></i></a></li>
+                              <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sivaganga-m-449ab733b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a></li>
+                              
+                          </ul>
+                        </div>
+                        <div class="menu">
+                            <ul>
+                              <li><a href=""><i class="fa fa-home">home</i></a></li>
+                              <li><a href=""><i class="fa fa-user">About</i></a></li>
+
+                              <li><a href=""><i class="fa fa-twitter">Contact</i></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer">
+                            <p>&copy; copyrights@2024<br> designed by SivaGanga</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-8 about">
+                    <div class="row">
+                        <h4>About</h4>
+                        <p class="para">
+                           A hardworking individual looking for a challenging position where I can showcase my skills and contribute to the growth of the organization. I would love to work in an environment that encourages me to succeed and grow professionally while applying challenging algorithms and expanding my knowledge.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <img src="cvp2.jpeg" height="330px" width="280px" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-8">
+                            <h5>CYBER SECURITY ANALYST</h5>
+                            <p class="para">I am a technology-driven cybersecurity analyst passionate about protecting digital infrastructure and ensuring information security. Whether it’s securing networks, analyzing threats, or implementing advanced defense mechanisms, I combine analytical thinking and technical expertise to fortify digital environments.</p>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-8">
+                                    <ul class="content">
+                                        <li><strong>Birthday:</strong> 1 april 2005</li>
+
+                                        <li><strong>Phone:</strong> 7397282005 </li>
+                                        <li><strong>City:</strong> Chennai, INDIA</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <ul class="content1">
+                                        <li><strong>Age:</strong> 19</li>
+                                        <li><strong>Degree:</strong> UNDERGRADUATE</li>
+                                        <li><strong>Email:</strong> <a href="mailto:sivagangamanoj8@gmail.com">sivagangamanoj8@gmail.com</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <p class="para">Driven by a passion for digital safety and ethical hacking. With  some skills in tools like Wireshark, Metasploit, Kali Linux, and Splunk, and knowledge of protocols such as SSL/TLS, IPSec, and VPNs, I aim to create secure and resilient systems. I am always eager to learn, adapt, and contribute to building a cyber-resilient future through efficient defense strategie.</p>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="Contact">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="fill">
+                       <img src="cvp2.jpeg" height="150px" width="150px" alt="">
+                       <h3>SivaGanga</h3>
+                       <div class="icons">
+                          <ul class="nav">
+                              <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/sivaganga_m?igsh=YXpwbmFtNHE2NW0w"><i class="fa fa-instagram"></i></a></li>
+                              <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sivaganga-m-449ab733b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a></li>
+                              
+                          </ul>
+                        </div>
+                       <div class="menu">
+                            <ul>
+                              <li><a href=""><i class="fa fa-home">home</i></a></li>
+                              <li><a href=""><i class="fa fa-user">About</i></a></li>
+                              <li><a href=""><i class="fa fa-twitter">Contact</i></a></li>
+    
+                            </ul>
+                       </div>
+                        <div class="footer">
+                            <p>&copy; copyrights@2024<br> designed by SivaGanga M</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-8 Contact">
+                    <div class="row">
+                        <h4>Contact</h4>
+                        <p class="para">I’m always open to new opportunities, collaborations, or simply connecting with fellow developers. Whether you have an exciting project in mind or need help with your web development needs, I’m here to assist you. Don’t hesitate to reach out with any questions, suggestions, or ideas – I’d love to chat and see how we can work together to bring your vision to life. Fill out the form below or contact me directly via email or social media, and I’ll get back to you as soon as possible!</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <p class="h5"><i class='fas fa-map-marker-alt'></i> location</p>
+                            <pre>No.12, Ganga Nivas,
+Gandhi st, Sakthi Nagar,
+Mangadu
+Chennai-122
+                            </pre>
+                            <p class="h5"><i class='fas fa-envelope'></i> email</p>
+                            <p class="para"><a href="mailto:sivagangamanoj8@gmail.com">sivagangamanoj8@gmail.com</a>
+                            </p>
+                            <p class="h5"><i class='fas fa-phone'></i> call</p>
+                            <p class="para"><a href="tel:7397282005">7397282005</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-8">
+                         <div class="row">
+                           <table>
+                            <tr>
+                                <td>Your Name</td>
+                                <td>Your Email</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control" name="" id=""></td>
+                                <td><input type="email" class="form-control" name="" id=""></td>
+                            </tr>
+                           </table>
+                         </div>
+                         <div class="row">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>Subject</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" class="form-control" aria-colspan"2" name="" id=""></td>
+
+                                </tr>
+                            </tbody>
+                            </table>
+                         </div>
+                         <div class="row">
+                            <table>
+                                <tr>
+                                    <td>Message</td>
+                                </tr>
+                                <tr>
+                                    <td><textarea aria-colspan="2" style="height:175px" name="Message" id=""></textarea></td>
+                                    
+                                </tr>
+                            </table>
+                         </div>
+                         <button>Send Message</button>
+
+                                   
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Skills">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="fill">
+                        <img src="cvp2.jpeg" height="150px" width="150px" alt="">
+                        <h3>SivaGanga M</h3>
+                        <div class="icons">
+                           <ul class="nav">
+                               <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/sivaganga_m?igsh=YXpwbmFtNHE2NW0w"><i class="fa fa-instagram"></i></a></li>
+                               <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sivaganga-m-449ab733b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a></li>
+                               
+                           </ul>
+                        </div>
+                        <div class="menu">
+                             <ul>
+                               <li><a href=""><i class="fa fa-home">home</i></a></li>
+                               <li><a href=""><i class="fa fa-user">About</i></a></li>
+                               <li><a href=""><i class="fa fa-twitter">Contact</i></a></li>
+     
+                             </ul>
+                        </div>
+                         <div class="footer">
+                             <p>&copy; copyrights@2024<br> designed by SivaGanga M</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-8 Skills">
+                    <div class="row">
+                        <h4>Skills</h4>
+                        <p class="para">I’m always open to new opportunities, collaborations, or simply connecting with fellow. Whether you have an exciting project in mind or need help with projects needs, I’m here to give my fullest buss you. Don’t hesitate to reach out with any questions, suggestions, or ideas – I’d love to chat and see how we can work together to bring your vision to life. Fill out the form below or contact me directly via email or social media, and I’ll get back to you as soon as possible!</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-8">
+                            <p class="para1">HTML</p>
+                            <div class="progress">
+                               <div class="progress-bar" style="width: 80%; color: white;">60%</div>
+                           </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <p class="para1">CSS</p>
+                            <div class="progress">
+                               <div class="progress-bar" style="width: 100%; color: white;">80%</div>
+                           </div>
+                        </div>
+                      
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-sm-12 col-md-4 col-lg-8">
+                            <p class="para1">PYTHON</p>
+                            <div class="progress">
+                               <div class="progress-bar" style="width: 90%; color: white; ">40%</div>
+                           </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <p class="para1">UI/UX</p>
+                            <div class="progress">
+                               <div class="progress-bar" style="width: 75%; color: white;">50%</div>
+                           </div>
+                        </div>
+                      
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-sm-12 col-md-4 col-lg-8">
+                            <p class="para1">DESIGN</p>
+                            <div class="progress">
+                               <div class="progress-bar" style="width: 75%; color: white; ">70%</div>
+                           </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <p class="para1">CANVA</p>
+                            <div class="progress">
+                               <div class="progress-bar" style="width: 55%; color: white;">75%</div>
+                           </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

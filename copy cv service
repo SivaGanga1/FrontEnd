@@ -1,0 +1,136 @@
+
+ .Services{
+          
+            background-image: url(cvp2.jpg);
+            background-size: cover;
+
+        }
+
+
+
+<li class="nav-item"><a class="nav-link" href=""><i class="fa fa-wrench">Services</i></a></li>
+
+
+    <li><a href=""><i class="fa fa-wrench">Services</i></a></li>
+    <li><a href=""><i class="fa fa-wrench">Services</i></a></li>
+    ""
+    ""
+
+
+
+
+
+
+<section id="Services">
+        <div class="container pt-3">
+            <div class="row">
+               
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="fill">
+                       <img src="cvp2.jpeg" height="150px" width="150px" alt="">
+                       <h3>SivaGanga M</h3>
+                       <div class="icons">
+                          <ul class="nav">
+                              <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-instagram"></i></a></li>
+                              <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook"></i></a></li>
+                              <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+                              <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-youtube"></i></a></li>
+                              <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-google"></i></a></li>
+                          </ul>
+                        </div>
+                       <div class="menu">
+                            <ul>
+                              <li><a href=""><i class="fa fa-home">home</i></a></li>
+                              <li><a href=""><i class="fa fa-user">About</i></a></li>
+                              <li><a href=""><i class="fa fa-wrench">Services</i></a></li>
+                              <li><a href=""><i class="fa fa-twitter">Contact</i></a></li>
+    
+                            </ul>
+                        </div>
+                        <div class="footer">
+                            <p>&copy; copyrights@2024<br> designed by SivaGanga/p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-8 Services">
+                    <div class="row">
+                        <h4>Services</h4>
+                        <p class="para">I offer a range of services as a Java and Web Developer, focused on creating efficient, user-friendly, and scalable solutions. Whether you need a dynamic website, a robust back-end system, or a full-stack web application, I am here to bring your ideas to life. Leveraging modern technologies and best practices, I strive to deliver high-quality solutions tailored to meet your needs. </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                            <div class="card-header">
+                                <h6> <i class="fa fa-star"></i>  Responsive Web Design</h6>
+                                <div class="card-body">
+                                    <p class="para">I create websites that adapt seamlessly to any screen size, ensuring a smooth and engaging experience across all devices, from desktops to smartphones.</p>
+                                </div></div></div></div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                            
+                                <div class="card-header">
+                                    <h6> <i class="fa fa-star"></i>  UI/UX Implementation</h6>
+                                    <div class="card-body">
+                                        <p class="para">Bringing designs to life with clean, user-friendly interfaces that prioritize both functionality and aesthetic appeal.</p>
+                                    </div></div></div></div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6> <i class="fa fa-star"></i>  Web Performance Optimization</h6>
+                                    <div class="card-body">
+                                        <p class="para">Enhancing website speed and efficiency to deliver fast-loading, high-performance sites that keep users engaged.</p>
+                                    </div></div></div></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                            <div class="card-header">
+                                <h6> <i class="fa fa-star"></i>  Cross-Browser Compatibility
+                                </h6>
+                                <div class="card-body">
+                                    <p class="para">Developing websites that perform consistently across all major browsers, ensuring accessibility for every user.</p>
+                                </div></div></div></div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6> <i class="fa fa-star"></i>  Interactive Features</h6>
+                                    <div class="card-body">
+                                        <p class="para">Building dynamic, interactive web components like animations, sliders, and modals to create immersive user experiences.</p>
+                                    </div></div></div></div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6> <i class="fa fa-star"></i>  Custom Front-End Solutions</h6>
+                                    <div class="card-body">
+                                        <p class="para">Tailored development services designed to meet your unique project requirements, utilizing modern tools like HTML5, CSS3, JavaScript, and frameworks like React.</p>
+                                    </div></div></div></div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook"></i></a></li>
+    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-youtube"></i></a></li>
+    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-google"></i></a></li>
+
+
+
+
+
+    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook"></i></a></li>
+    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-youtube"></i></a></li>
+
+
+
+
+ 
+    
